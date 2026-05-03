@@ -1,3 +1,4 @@
+-- perintah alter table untuk menambahkan kolom stockStatus di tabel products
 ALTER TABLE products
 ADD COLUMN stockStatus VARCHAR(20) DEFAULT 'In Stock';
 
