@@ -15,3 +15,6 @@ begin
    where productCode = p_productCode;
 end $$
 delimiter ;
+
+-- pemanggilan prosedur
+CALL update_stok_setelah_order('S10_1678', 7933);
