@@ -1,3 +1,5 @@
+USE classicmodels;
+
 -- Stored Function hitung_total_pembayaran
 
 delimiter $$
